@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Tip Calculator</h1>
+    <p class="subtitle">Enter the bill amount and tip percentage to calculate the total.</p>
+
+    <label>Bill Amount</label>
+    <div class="Bill">
+    <input type="number" id="billAmount" placeholder="Enter bill amount">
+    </div>
+
+    <label>Tip Percentage</label>
+    <div class="Tip">
+    <input type="number" id="tipAmount" placeholder="Enter tip %">
+    </div>
+
+    <button onclick="calculate()">CALCULATE</button>
+
+    <div class="result">Total: ₹
+        <span id="total"></span>
+    </div>
+</div>
+<script src="./lab1.js"></script>
+</body>
+</html>
